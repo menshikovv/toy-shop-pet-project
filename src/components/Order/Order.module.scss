@@ -1,0 +1,55 @@
+.order {
+    font-size: 3em;
+    margin-bottom: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(101, 101, 101, 0.5) !important;
+    border-radius: 50px;
+    padding: 50px;
+}
+
+label {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white !important;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.38) !important;
+    color: white !important;
+    &:focus {
+        border: 1px solid rgb(189, 0, 189);
+        transition: all 0.5s ease-in;
+    }
+}
+
+.icons {
+    width: 60px;
+}
+
+.error {
+    color: rgb(255, 85, 85);
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+@media (max-width: 376px) {
+    .order {
+        font-size: 2.5em;
+    }
+    
+    form {
+        padding: 30px;
+    }
+}

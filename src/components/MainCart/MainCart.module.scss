@@ -1,0 +1,74 @@
+.main_cart img {
+    max-width: 250px;
+    padding: 50px 50px;
+    background-color: rgba(148, 148, 148, 0.5);
+    border-radius: 50px;
+}
+
+.name_cart {
+    margin-bottom: 30px;
+}
+
+.price_cart {
+    display: flex;
+
+    & span {
+        font-size: 25px;
+        color: rgb(218, 116, 252);
+        letter-spacing: 2.5px;
+        font-family: "LXGW WenKai Mono TC", monospace;
+    }
+    & p {
+        font-size: 25px;
+        margin-bottom: 30px;
+        color: rgb(218, 116, 252);
+        letter-spacing: 2.5px;
+        font-family: "LXGW WenKai Mono TC", monospace;
+    }
+}
+
+.buy_cart {
+    padding: 30px;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.basket {
+    width: 60px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.icon {
+    width: 60px;
+}
+
+.main_cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.count {
+    margin-top: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: white !important;
+}
+
+.icons svg {
+    width: 60px;
+}
+
+.add {
+    color: rgb(94, 205, 94) !important;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+}
